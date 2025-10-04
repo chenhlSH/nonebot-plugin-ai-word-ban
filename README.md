@@ -3,9 +3,9 @@
   <br>
 <div align="center">
 
-# nonebot-plugin-sell-poor
+# nonebot-plugin-sell-poor（前面是我拿来改写的样本）
 </div>
-_✨ 基于 LLM 的卖若插件 ✨_<br>
+_✨ 基于 LLM 的捣蛋鬼清除插件 ✨_<br>
 
 
 <a href="./LICENSE">
@@ -22,11 +22,10 @@ _✨ 基于 LLM 的卖若插件 ✨_<br>
 
 ## 📖 介绍
 
-基于 LLM 的卖若插件，使用智谱API<br>
-使用智谱的 `GLM-4-Flash` 进行检测，不消耗api余额
+基于 LLM 的捣蛋鬼清除插件，使用API<br>
 
 
-## 💿 安装
+## 💿 安装（别看，没用
 
 <details open>
 <summary>使用 nb-cli 安装</summary>
@@ -58,7 +57,7 @@ _✨ 基于 LLM 的卖若插件 ✨_<br>
 </details><br>
 
 
-## 🔧配置项
+## 🔧配置项（别看，还在改）
 ### 必填项
 
 ```
@@ -80,6 +79,3 @@ sell_poor_text = "诶，还是太菜了，学不来，我也想有本领😭"
 
 ```
 
-## 🖼️ 使用效果图
-
-![image](./img/img.webp)
