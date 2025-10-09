@@ -14,11 +14,11 @@ import random
 from nonebot.plugin import PluginMetadata
 
 __plugin_meta__ = PluginMetadata(
-    name="脏字提醒插件",
-    description="基于 LLM 的脏字提醒插件",
+    name="卖若插件",
+    description="基于 LLM 的卖若插件",
     usage="none",
     type="application",
-    homepage="https://github.com/chenhlSH/nonebot-plugin-ai-word-ban",
+    homepage="https://github.com/XTxiaoting14332/nonebot-plugin-sell-poor",
     config=Config,
     supported_adapters={"~onebot.v11"},
 
@@ -88,7 +88,7 @@ async def req_glm(auth_token, msg):
     
     prompt = (
         "需要你进行以下判断，并仅回复符合的标签："
-        "1.以下这段文字是否出现了隐晦的脏话（或者明显的脏话），如果出现了对亲属的侮辱，请仅回复'sell_poor_y'"
+        "1.以下这段文字是否出现了技术性的内容（比如计算机领域，游戏领域等各方面，生活日常不算），如果出现了，请仅回复'sell_poor_y'"
         "2.如果不符合请回复'none'"
         "需要判断的文字是："
     )
